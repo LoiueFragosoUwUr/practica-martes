@@ -3,6 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package aplicacionconsolaclientews;
+import aplicacionconsolaclientews.Producto;
+import aplicacionconsolaclientews.Tarjeta;
 
 /**
  *
@@ -15,7 +17,15 @@ public class AplicacionConsolaClienteWS {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        long registros [][]=new long  [3][5];
+        Producto smoothie_de_vegetales_verdes = new Producto(1, 12, 30,012);
+        Producto coctel_de_jicama_con_pepino = new Producto(2, 13, 10,013);
+        Producto aguacate_relleno_de_atun = new Producto(3, 14, 10,014);
+                                        //id tarjeta nombre id_client CVV
+        Tarjeta cliente_1 =new Tarjeta("1123","Ian","0001" , 77479);
+        Tarjeta cliente_2 =new Tarjeta("1553","Nefta","0002" , 73554);
+        Tarjeta cliente_3 =new Tarjeta("1791","Fernando","0003" , 34484);
+        //logic of the program
+        
         
     }
 
